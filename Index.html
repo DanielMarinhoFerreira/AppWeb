@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./IndexStyle.css" />
+    <script src="./script.js" defer></script>
+    <title>teste dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <a class="links" id="IrLoing"></a>
+        <a class="links" id="IrCadastro"></a>
+        <div class="content">
+            <!--FORMULÁRIO DE CADASTRO-->
+            <div id="Cadastro">
+                <h1>Cadastro</h1>
+                <form action="">
+                    <p>
+                        <label for="usuario">Nome</label>
+                        <input type="usuario" class="usuario" name="usuario" placeholder="Usuário">
+                    </p>
+                    <p>
+                        <label for="email">E-mail</label>
+                        <input type="email" class="email" name="email" placeholder="E-mail">
+                    </p>
+                    <p>
+                        <label for="senha">Senha</label>
+                        <input type="password" class="senha" name="senha" placeholder="Senha">
+                    </p>
+                    <p>
+                        <label for="telefone">Telefone</label>
+                        <input type="telefone" class="telefone" name="telefone" placeholder="telefone">
+                    </p>
+                    <p>
+                        <button>CADASTRAR</button>
+                    </p>
+                    <P class="links">
+                        já se cadastrou-se ?
+                        <a href="#IrLogin">Ir para login</a>
+                    </P>
+                </form>
+            </div>
+            <!--FORMULÁRIO DE LOGIN-->
+            <div id="Login">
+                <form action="">
+                    <h1>Login</h1>
+                    <p>
+                        <label for="Login">login</label>
+                        <input type="usuario" class="nome" nome="usuario" placeholder="Usuario">
+                    </p>
+                    <p>
+                        <label for="senha">Senha</label>
+                        <input type="password" classe="senha" name="senha" placeholder="Senha">
+                    </p>
+                    <p>
+                        <label for="ManterLogado">Manter-se Logado</label>
+                        <input type="checkbox" name="ManterLogado" value="">
+                    </p>
+                    <button>Loing</button>
+                </p>
+                <P class="links">
+                    Não se cadastrou-se ?
+                    <a href="#IrCadastro">Ir para Cadastro</a>
+                </P>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
